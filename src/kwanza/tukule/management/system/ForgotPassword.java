@@ -188,9 +188,7 @@ public class ForgotPassword extends javax.swing.JFrame {
             Random rand = new Random();
             randomCode = rand.nextInt(999999);
             String host = "smtp.gmail.com";
-            String user = "samuelmariwa@gmail.com";
-            //String user = "info@kwanzatukule.com";
-            String pass = "samokoth.1999";
+  
             //String pass = "Thamestana";
             String to = emailText.getText();
             String subject = "Verification Code";
@@ -243,9 +241,7 @@ public class ForgotPassword extends javax.swing.JFrame {
             Random rand = new Random();
             randomCode = rand.nextInt(999999);
             String host = "smtp.gmail.com";
-            String user = "samuelmariwa@gmail.com";
-            //String user = "info@kwanzatukule.com";
-            String pass = "samokoth.1999";
+
             //String pass = "Thamestana";
             String to = emailText.getText();
             String subject = "Verification Code";
